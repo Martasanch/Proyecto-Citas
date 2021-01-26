@@ -1,0 +1,64 @@
+body {
+  background-image: url("/images/huellas.jpg");
+}
+
+header {
+  width: 100%;
+}
+
+header nav {
+  border-bottom: 5px solid pink;
+  background-color: #ffd5e9;
+}
+
+header nav label {
+  font-family: "Sofia", sans-serif;
+  font-size: xx-large;
+}
+
+header nav a, header nav a:hover {
+  color: grey;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: large;
+}
+
+main .container {
+  border: 5px solid pink;
+}
+
+main .container .row {
+  background-color: #ffd5e9;
+}
+
+main .container .row .titulo {
+  margin-top: 30px;
+  color: black;
+  font-family: "Sofia", sans-serif;
+}
+
+main .container .row .mensajes {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main .container .row .imagenes {
+  
+  border: solid white 3px;
+  
+}
+main .container .row .formulario {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main .container .row .formulario form {
+  width: 600px;
+  font-size: 20px;
+}
+
+main .container .row .formulario form #hora {
+  font-size: 16px;
+  color: #4b4a4a;
+}
+/*# sourceMappingURL=base.css.map */
