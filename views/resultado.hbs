@@ -19,7 +19,7 @@
                 <script src="/js/qrcode/build/qrcode.min.js"></script>
                 <script>
                   console.log("{{datosCita}}")
-                  QRCode.toCanvas(document.getElementById('canvas'), "{{datosCita.nombre}}", function (error) {
+                  QRCode.toCanvas(document.getElementById('canvas'), "{{datosCita.nombre}} {{datosCita.telefono}} {{datosCita.fecha}} {{datosCita.hora}}", function (error) {
                     if (error) console.error(error)
                     console.log('success!');
                   })
